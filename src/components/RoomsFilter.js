@@ -58,8 +58,8 @@ export default function RoomFilter({rooms})
                     <form className="form-group">
                         <label htmlFor="size">room size</label>
                         <div className="size-input">
-                            <input type="number" name="min size" id="minsize" value={minSize} onInput={handleChange} className="size-input"/>
-                        <input type="number" name="max size" id="maxsize" value={maxSize} onInput={handleChange} className="size-input" />
+                        <input type="number" name="minSize" id="minsize" value={minSize} onInput={handleChange} className="size-input"/>
+                        <input type="number" name="maxSize" id="maxsize" value={maxSize} onInput={handleChange} className="size-input" />
                         </div>
                     </form>
                     {/* end of size  */}
